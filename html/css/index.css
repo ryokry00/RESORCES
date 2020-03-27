@@ -18,7 +18,7 @@ img{
  }
 
  .wrapper{
-   max-width: 840px;
+   max-width: 900px;
    max-height: 350px;
    height: 570px;
    margin: 18% auto;
@@ -28,7 +28,7 @@ img{
 
  .menulogo{
    width: 210px;
-   height:50px;
+   height: 50px;
  }
 
  .main-nav{
