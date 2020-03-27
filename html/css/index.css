@@ -11,14 +11,14 @@ html{
 }
 
 img{
-  max-width: 150%;
+  max-width: 100%;
 }
  .logo{
    width: 700px;
  }
 
  body{
-   background-color: ##001D60;
+   background-color: #001D60;
  }
 
  .wrapper{
