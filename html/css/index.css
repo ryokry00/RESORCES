@@ -21,7 +21,7 @@ img{
  .wrapper{
    max-width: 840px;
    height: 570px;
-   margin: 20% auto;
+   margin: 23% auto;
    padding: 0 4%;
 
  }
@@ -33,6 +33,7 @@ img{
 
  .main-nav{
    display: grid;
+
    gap: 20px;
    list-style: none;
    margin: 60px auto;
