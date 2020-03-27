@@ -4,7 +4,9 @@
   background: #001C5C;
   color: #FFCE00;
   text-align: center;
-  border-width: 10px;
+  border-width: 3px;
+  border-color: #FFCE00;
+  border-style: solid;
 }
 
 .container{
@@ -24,5 +26,9 @@
    color: #FFCE00;
    font-family: 'Russo One', sans-serif;
  }
+
+
+
+
 
 </style>
