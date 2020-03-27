@@ -1,42 +1,13 @@
 @charset "UTF-8";
-
-
-<style>
-
- .item{
-  background: #001C5C;
-  color: #FFCE00;
-  border-width: thick;
-  border-color: #FFCE00;
-  border-style: solid;
+html{
+  font-size: 100%;
 }
 
-.container{
-  display: grid;
-  border-color: #FFCE00;
-  border-width: 30px;
-  flex-direction: column;
-  height:465px;
-  width:415px;
-  margin:200px 409px 315px 1200px;
-  gap: 70px;
-
+ a{
+   text-decoration: none;
+   text-decoration-color: #FFCE00;
 }
 
-
-h1{
-  margin-top:625px;
-  margin-1000px 390px 355px;
-}
-
- body{
-   background-color:#001C5C;
-   color: #FFCE00;
-   font-family: 'Russo One', sans-serif;
+ img{
+   max-width: 100%;
  }
-
-
-
-
-
-</style>
