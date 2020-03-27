@@ -1,7 +1,7 @@
 <style>
 
-.item{
-  background: ##001C5C;
+ .item{
+  background: #001C5C;
   color: #FFCE00;
   text-align: center;
   border-width: 10px;
@@ -9,6 +9,8 @@
 
 .container{
   display: grid;
+  border-color: #FFCE00;
+  border-width: 30px;
   flex-direction: column;
   height:465px;
   width:415px;
