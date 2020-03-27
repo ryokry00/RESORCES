@@ -1,0 +1,19 @@
+<style>
+
+.item{
+  background-color: #001C5C;
+  border:#FFCE00;
+  height:100px;
+  width:415px;
+  margin:auto;
+  padding:20px;
+}
+
+.container{
+  background-color: #001C5C;
+  height:465px;
+  width:415px;
+  margin:300px 309px 315px 1200px;
+}
+
+</style>
