@@ -12,10 +12,6 @@
 .container{
   display:flex;
   flex-direction:row-reverse;
-  background-color: #001C5C;
-  height:465px;
-  width:415px;
-  margin:300px 309px 315px 1200px;
 }
 
 </style>
