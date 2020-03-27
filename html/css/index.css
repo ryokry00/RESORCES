@@ -2,7 +2,7 @@
 html{
   font-size: 100%;
   font-family: 'Russo One', sans-serif;
-  background-color: #001C5C;
+  background-color: #001D60;
 }
 
  a{
@@ -18,7 +18,7 @@ img{
  }
 
  body{
-   background-color: #001C5C;
+   background-color: ##001D60;
  }
 
  .wrapper{
@@ -27,7 +27,7 @@ img{
    height: 570px;
    margin: 18% auto;
    padding: 0 4%;
-   background-color: #001C5C;
+   background-color: #001D60;
  }
 
  .menulogo{
