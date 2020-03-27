@@ -32,7 +32,7 @@ img{
 
  .menulogo{
    width: 450px;
-   height: 75px;
+   min-height: 75px;
  }
 
  .main-nav{
