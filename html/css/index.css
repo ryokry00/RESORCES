@@ -23,7 +23,13 @@ img{
    height:50px;
  }
 
+ .main-nav{
+   display: grid;
+   gap: 10px;
+ }
+
  .page-header{
+   display: flex;
    justify-content:space-between;
-   
+
  }
