@@ -10,7 +10,6 @@
 .container{
   display: grid;
   flex-direction: column;
-  background-color: #001C5C;
   height:465px;
   width:415px;
   margin:200px 409px 315px 1200px;
