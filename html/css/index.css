@@ -9,17 +9,7 @@ html{
    text-decoration: none;
    text-decoration-color: #FFCE00;
 }
- .title{
-   text-decoration-color: #FFCE00;
-   font-family: 'Russo One', sans-serif;
 
- }
-
- .subtitle{
-   text-decoration-color: #FFCE00;
-   font-family: 'Russo One', sans-serif;
- }
- 
 img{
   max-width: 100%;
 }
@@ -55,7 +45,7 @@ img{
 
  .page-header{
    display: grid;
-   gap: 10px;
+   gap:10px;
    justify-content:space-between;
 
  }
