@@ -15,12 +15,12 @@ img{
 }
  .logo{
    width: 305px;
-   height: 210px;
+   height: 250px;
  }
 
  .wrapper{
    max-width: 900px;
-   height: 360px;
+   height: 400px;
    margin: 25% auto;
    padding: 0 4%;
 
