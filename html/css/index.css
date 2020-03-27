@@ -8,6 +8,10 @@ html{
    text-decoration: none;
    text-decoration-color: #FFCE00;
 }
+
+img{
+  max-width: 100%;
+}
  .logo{
    width: 210px;
    height: 160px;
