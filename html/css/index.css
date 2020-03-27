@@ -31,8 +31,8 @@ img{
  }
 
  .menulogo{
-   width: 450px;
-   min-height: 75px;
+   width: 300px;
+   height: auto;
  }
 
  .main-nav{
