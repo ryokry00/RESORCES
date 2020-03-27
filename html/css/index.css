@@ -17,6 +17,10 @@ img{
    width: 405px;
  }
 
+ body{
+   background-color: #001C5C;
+ }
+
  .wrapper{
    max-width: 900px;
    max-height: 350px;
@@ -36,8 +40,6 @@ img{
    gap: 30px;
    list-style: none;
    margin: 90px;
-   width: auto;
-   height: auto;
 
  }
 
