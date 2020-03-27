@@ -23,9 +23,13 @@ img{
 
  .wrapper{
    max-width: 1000px;
-   margin: 14% auto;
+   margin: 10% auto;
    padding: 0 4%;
    background-color: #001D60;
+ }
+
+ .menulogo{
+   width: 300px;
  }
 
  .main-nav{
@@ -35,6 +39,7 @@ img{
    margin-left: auto;
    margin-right: auto;
    margin: 10px;
+
  }
 
 
