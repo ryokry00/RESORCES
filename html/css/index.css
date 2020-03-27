@@ -1,7 +1,9 @@
 <style>
 
- p{
+ .item{
+  background: #001C5C;
   color: #FFCE00;
+  text-align: center;
   border-width: thick;
   border-color: #FFCE00;
   border-style: solid;
