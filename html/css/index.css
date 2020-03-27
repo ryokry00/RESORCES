@@ -8,7 +8,12 @@ html{
    text-decoration: none;
    text-decoration-color: #FFCE00;
 }
+ .logo{
+   width: 610;
+   height: 520;
+ }
 
- img{
-   max-width: 100%;
+ .menulogo{
+   width: 415;
+   height:100;
  }
