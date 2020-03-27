@@ -4,9 +4,6 @@
   background: #001C5C;
   border-color: #1592E6;
   color: #FFCE00;
-  margin:100px;
-  padding:200px;
-
 }
 
 .container{
@@ -16,6 +13,7 @@
   height:465px;
   width:415px;
   margin:200px 409px 315px 1200px;
+  gap: 70px;
 
 }
 
