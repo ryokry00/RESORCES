@@ -31,13 +31,13 @@ img{
  }
 
  .menulogo{
-   width: 210px;
-   height: 50px;
+   width: 300px;
+   height: 100px;
  }
 
  .main-nav{
    display: grid;
-   gap: 30px;
+   gap: 80px;
    list-style: none;
    margin: 90px;
 
