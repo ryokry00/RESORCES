@@ -45,5 +45,5 @@ img{
    display: grid;
    gap:10px;
    justify-content:space-between;
-
+   text-align: center;
  }
