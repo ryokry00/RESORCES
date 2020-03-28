@@ -30,14 +30,12 @@ img{
  }
 
  .headlogo{
-   max-width: 400px;
+   max-width: 100px;
  }
 
  .main-nav{
    display: flex;
    list-style: none;
-   margin-left: auto;
-   margin-right: auto;
  }
 
 
