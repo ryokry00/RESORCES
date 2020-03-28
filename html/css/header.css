@@ -13,10 +13,6 @@ html{
 img{
   max-width: 100%;
 }
- .logo{
-   width: 700px;
-   text-align: center;
- }
 
  body{
    background-color: #001D60;
@@ -30,7 +26,7 @@ img{
  }
 
  .headlogo{
-   max-width: 100px;
+   width: 100px;
  }
 
  .main-nav{
