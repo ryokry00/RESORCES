@@ -1,0 +1,32 @@
+@charset "UTF-8";
+html{
+  font-size: 100%;
+  font-family: 'Russo One', sans-serif;
+  background-color: #001D60;
+}
+
+ a{
+   text-decoration: none;
+   text-decoration-color: #FFCE00;
+}
+
+img{
+  max-width: 100%;
+}
+
+ body{
+   background-color: #001D60;
+ }
+
+.container{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+  list-style: none;
+  grid-template-rows: 300px 300px;
+}
+
+.sqlogo{
+  max-width: 100px;
+  padding: 10px;
+}
