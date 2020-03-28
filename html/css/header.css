@@ -45,5 +45,6 @@ img{
  .page-header{
    display: flex;
    justify-content: space-between;
+   color: #FFCE00;
    text-align: center;
  }
