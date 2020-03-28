@@ -25,6 +25,7 @@ img{
   margin-left:200px;
   margin-right:200px;
   margin-bottom: 100px;
+  list-style: none;
 }
 
 .searchformat-location{
@@ -51,5 +52,4 @@ background:#eee;
   display: grid;
   gap: 100px;
   margin: 50% auto;
-  list-style: none;
 }
