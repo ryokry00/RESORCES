@@ -20,28 +20,41 @@ img{
 
 .searchformat-brand{
   display: flex;
-  justify-content: space-between;
-  margin-top:100px;
-  margin-left:200px;
-  margin-right:200px;
-  margin-bottom: 100px;
+  justify-content: center;
+  margin-bottom: 40px;
   list-style: none;
 }
 
 .searchformat-location{
   display: flex;
-  justify-content: space-between;
-  width: 60% auto;
+  justify-content: center;
+  margin:0 auto;
   list-style: none;
 }
 
 #brand-input{
-max-width:300px;
-height:50px;
-border-radius:2px;
-outline:0;
-margin-bottom:40px;
-background:#eee;
+  height:50px;
+  border-radius:2px;
+  outline:0;
+  margin-left:40px;
+  margin-bottom: 0;
+  background:#eee;
+}
+
+#location-input{
+  height:50px;
+  border-radius:2px;
+  outline:0;
+  margin-left:40px;
+  background:#eee;
+}
+
+
+.wrapper{
+  max-width: auto;
+  margin: 0 auto;
+  padding: 0 4%;
+  background-color: #001D60;
 }
 
 .searchformat-brandlogo{
@@ -51,6 +64,6 @@ background:#eee;
 .search-format{
   max-width: 500px;
   display: grid;
-  gap: 100px;
+  gap: 10px;
   margin: 50% auto;
 }
