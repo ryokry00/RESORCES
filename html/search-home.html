@@ -7,6 +7,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link href="https://fonts.googleapis.com/css?family=Russo+One&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="css/header.css">
+<link rel="stylesheet" href="css/search-home.css">
+
   <title>TOB TOKYO OUTFIT BASE</title>
 </head>
 <body>
@@ -14,13 +16,29 @@
   <h1><a href="index.html"><img class="headlogo" src="images/headlogo.png" alt="TOKYO OUTFIT BASE"></a></h1>
   <nav>
     <ul class="main-nav">
-    <li><a href="searchform.html"><img class="menulogo" src="images/searchlogo.png" alt="Search Form"></a></li>
+    <li><a href="searchform.html"><img class="menulogo" src="images/searchhome-logo.png" alt="Search Form"></a></li>
       <li><a href="locationhome.html"><img class="menulogo" src="images/locationlogo.png" alt="from location"></a></li>
         <li><a href="brandhome.html"><img class="menulogo" src="images/brandlogo.png" alt="from brand"></a></li>
       </ul>
     </nav>
 </header>
 <main>
+  <form action="example.php" method="post" name="search-form">
+  <div class="searchformat">
+   <ul class="searchformat-brand">
+   <li><img class="searchformat-brandlogo" src="images/search-brand.png" alt="SearchForm-brand"></li>
+     <li>
+       <input id="brand-input" type="text" placeholder="Name of Brand">
+         </li>
+  </ul>
+  <ul class="searchformat-location">
+    <li><img class="searchformat-brandlogo" src="images/search-location.png" alt="SearchForm-brand"></li>
+    <li>
+      <input id="location-input" type="text" placeholder="location">
+      </li>
+  </ul>
+  </div>
+  </form>
 </main>
 </body>
 </html>

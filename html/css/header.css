@@ -19,22 +19,37 @@ img{
  }
 
  .wrapper{
-   max-width: 1000px;
-   margin: 10% auto;
+   max-width: auto;
+   margin: 0 auto;
    padding: 0 4%;
    background-color: #001D60;
  }
 
- .headlogo{
-   width: 100px;
-   margin-top: 14px;
+ .main-nav{
+   display: flex;
+   margin-top: 34px;
+   list-style: none;
+   justify-content: space-between;
  }
 
- .main-nav{
-   list-style: none;
+
+ .main-nav li{
+   margin-left: 50px
+ }
+
+ .menulogo{
+   width: 300px;
+ }
+
+ .headlogo{
+   width: 400px;
+   margin-top: 20px;
+   margin-left: 10px;
  }
 
 
  .page-header{
+   display: flex;
+   justify-content: space-between;
    color: #FFCE00;
  }
