@@ -22,11 +22,7 @@ img{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 10px;
-  list-style: none;
-  grid-template-rows: 300px 300px;
-}
-
-.sqlogo{
-  max-width: 100px;
-  padding: 10px;
+  margin-left: 0;
+  margin-right: 10px;
+  grid-template-rows: 1fr 1fr;
 }
