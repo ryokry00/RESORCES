@@ -29,7 +29,8 @@ img{
    background-color: #001D60;
  }
 
- .menulogo{
+ .headlogo{
+   max-width: 400px;
  }
 
  .main-nav{
@@ -43,6 +44,7 @@ img{
 
 
  .page-header{
+   display:flex;
    justify-content: space-between;
    color: #FFCE00;
    text-align: center;
