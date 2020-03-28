@@ -51,8 +51,5 @@ background:#eee;
   display: grid;
   gap: 100px;
   margin: 50% auto;
-}
-
-.searchformat-brandlogo li{
   list-style: none;
 }
