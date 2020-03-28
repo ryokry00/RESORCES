@@ -27,17 +27,14 @@ img{
 
  .headlogo{
    width: 100px;
+   margin-top: 14px;
  }
 
  .main-nav{
-   display: flex;
    list-style: none;
  }
 
 
  .page-header{
-   display: flex;
-   justify-content: space-between;
    color: #FFCE00;
-   text-align: center;
  }
