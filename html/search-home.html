@@ -17,24 +17,26 @@
   <nav>
     <ul class="main-nav">
     <li><a href="search-home.html"><img class="menulogo" src="images/searchhome-logo.png" alt="Search Form"></a></li>
-      <li><a href="locationhome.html"><img class="menulogo" src="images/locationlogo.png" alt="from location"></a></li>
-        <li><a href="brandhome.html"><img class="menulogo" src="images/brandlogo.png" alt="from brand"></a></li>
+      <li><a href="location-home.html"><img class="menulogo" src="images/locationlogo.png" alt="from location"></a></li>
+        <li><a href="brand-home.html"><img class="menulogo" src="images/brandlogo.png" alt="from brand"></a></li>
       </ul>
     </nav>
 </header>
 <main>
-  <form action="example.php" method="post" name="search-form">
+  <form action="result.html">
   <div class="searchformat wrapper">
    <ul class="searchformat-brand">
    <li><img class="searchformat-brandlogo" src="images/search-brand.png" alt="SearchForm-brand"></li>
      <li>
-       <input id="brand-input" type="text" placeholder="Name of Brand">
+      <input id="search-input" placeholder="1つキーワードを入力" type="text" name="searchbrand-key">
+      <input id="search-buttom" class="fas" type="submit" value="j" method="get">
          </li>
   </ul>
   <ul class="searchformat-location">
     <li><img class="searchformat-brandlogo" src="images/search-location.png" alt="SearchForm-brand"></li>
     <li>
-      <input id="location-input" type="text" placeholder="location">
+      <input id="search-input" placeholder="1つキーワードを入力" type="text" name="searchlocation-key">
+      <input id="search-buttom" class="fas" type="submit" value="" method="get">
       </li>
   </ul>
   </div>

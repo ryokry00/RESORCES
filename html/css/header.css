@@ -2,7 +2,7 @@
 html{
   font-size: 100%;
   font-family: 'Russo One', sans-serif;
-  background-color: #001D60;
+  background-color: #061E60;
 }
 
  a{
@@ -15,14 +15,14 @@ img{
 }
 
  body{
-   background-color: #001D60;
+   background-color: #061E60;
  }
 
  .wrapper{
    max-width: auto;
    margin: 0 auto;
    padding: 0 4%;
-   background-color: #001D60;
+   background-color: #061E60;
  }
 
  .main-nav{
@@ -52,4 +52,10 @@ img{
    display: flex;
    justify-content: space-between;
    color: #FFCE00;
+ }
+
+ .brandhomelogo{
+   width: 328px;
+   margin-left: 70px;
+   list-style: none;
  }

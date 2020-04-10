@@ -32,21 +32,27 @@ img{
   list-style: none;
 }
 
-#brand-input{
+#search-input{
   height:50px;
-  border-radius:2px;
-  outline:0;
-  margin-left:40px;
-  margin-bottom: 0;
-  background:#eee;
+  border: solid 1px #1592E6;
+  margin-top: 10px;
+  width: 100%;
+  font-size: 14px;
+  background-color: #fff;
+  text-align: left;
+  padding: 0px 10px 0 20px;
+  border-radius: 25px;
 }
 
-#location-input{
-  height:50px;
-  border-radius:2px;
-  outline:0;
-  margin-left:40px;
-  background:#eee;
+#search-buttom{
+  font-size: 20px;
+  border: none;
+  padding: 10px 10px;
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translate(0,-50%);
+  background-color: #001D60;
 }
 
 
