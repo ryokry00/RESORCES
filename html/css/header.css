@@ -59,3 +59,12 @@ img{
    margin-left: 70px;
    list-style: none;
  }
+
+ .brand-title{
+   font-size: 100%;
+   font-family: 'Russo One', sans-serif;
+   color: #FFCE00;
+   list-style: none;
+   font-size: 40px;
+   margin-left: 70px;
+ }
