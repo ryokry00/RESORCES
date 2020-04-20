@@ -13,7 +13,36 @@
 </head>
 <body>
 <?php
+$brandnameErr=$locationnameErr="";
+$brandname=$locationname="";
 
+if($_SERVER["REQUEST_METHOD"]=="POST"){
+  if(empty($_POST["brandname"])){
+    $brandnameErr="BrandName is required";
+  }else{
+    $brandname=test_input($_POST["brandname"]);
+
+    if(!preg_match('/[a-zA-Z_0-9 ]/',$brandname)){
+      $brandErr="Only letters and white space and 0~9 allowed";
+    }
+  }
+  if(empty($_POST["locationname"])){
+    $locationnameErr="LocationName is required";
+  }else{
+    $locationname=test_input($_POST["locationname"]);
+
+    if(!preg_match('/[a-zA-Z_0-9 ]/',$locationname)){
+      $locationnameErr="Only letters and white space and 0~9 allowed";
+    }
+  }
+}
+
+function test_input($data){
+  $data=trim($data);
+  $data=stripcslashes($data);
+  $data=htmlspecialchars($data);
+  return $data;
+}
 ?>
 
 
@@ -35,21 +64,37 @@
   <form action="result.html">
   <div class="searchformat wrapper">
    <ul class="searchformat-brand">
+
    <li><img class="searchformat-brandlogo" src="images/search-brand.png" alt="SearchForm-brand"></li>
+   <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
      <li>
-      <input id="search-input" placeholder="1つキーワードを入力" type="text" name="searchbrand-key">
-      <input id="search-buttom" class="fas" type="submit" value="j" method="get">
+      <input id="search-input" placeholder="1つキーワードを入力" type="text" name="searchbrand-key" value="<?php echo $brandname;?>">
+      <span class="error">*<?php echo $brandnameErr;?></span>
+      <input id="search-buttom" type="submit" value="Submit">
+    </form>
          </li>
   </ul>
   <ul class="searchformat-location">
-    <li><img class="searchformat-brandlogo" src="images/search-location.png" alt="SearchForm-brand"></li>
+    <li><img class="searchformat-brandlogo" src="images/search-location.png" alt="SearchForm-location"></li>
+    <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
     <li>
-      <input id="search-input" placeholder="1つキーワードを入力" type="text" name="searchlocation-key">
-      <input id="search-buttom" class="fas" type="submit" value="" method="get">
+      <input type="radio" name="locationname" <?php if(isset($locationname)&&$locationname=="daikanyama")echo "checked";?> value="daikanyama">DAIKANYAMA
+      <input type="radio" name="locationname" <?php if(isset($locationname)&&$locationname=="harajuku")echo "checked";?> value="harajuku">HARAJUKU
+      <input type="radio" name="locationname" <?php if(isset($locationname)&&$locationname=="nakameguro")echo "checked";?> value="nakameguro">NAKAMEGURO
+      <input type="radio" name="locationname" <?php if(isset($locationname)&&$locationname=="shibuya")echo "checked";?> value="shibuya">SHIBUYA
+      <input type="radio" name="locationname" <?php if(isset($locationname)&&$locationname=="shinjuku")echo "checked";?> value="shinjuku">SHINJUKU
+      <span class="error">*<?php echo $locationnameErr;?></span>
+      <input id="search-buttom" class="fas" type="submit" value="Submit">
+    </form>
       </li>
   </ul>
   </div>
-  </form>
+  <?php
+  echo "<h6>INPUT</h6>";
+  echo $brandname;
+  echo "<br>"
+  echo $locationname;
+   ?>
 </main>
 </body>
 </html>
