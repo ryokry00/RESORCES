@@ -12,11 +12,16 @@
   <title>TOB TOKYO OUTFIT BASE</title>
 </head>
 <body>
+<?php
+
+?>
+
+
 <header class="page-header wrapper">
   <ul class="toplogo">
     <li><a href="index.html"><img src="images/toblogo.png" alt="TOB home"></a></li>
   </ul>
-  
+
   <h1><a href="index.html"><img class="headlogo" src="images/headlogo.png" alt="TOKYO OUTFIT BASE"></a></h1>
   <nav>
     <ul class="main-nav">
